@@ -90,12 +90,19 @@ a:hover{
     padding-bottom: 300px;
 }
 
+.about-textbox {
+    display: flex;
+    flex-direction: row;
+}
+
 .textbox-left {
     text-align: left;
+    margin-right: 25px;
 }
 
 .textbox-right {
     text-align: left;
+    margin-left: 25px;
 }
 
 .designer {
@@ -112,6 +119,11 @@ a:hover{
     padding-top: 50px;
 }
 
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
 #main-text {
     text-align: center;
     padding: 260px 0px 500px;
@@ -126,5 +138,5 @@ a:hover{
 }
 
 #contact-frame {
-    padding: 260px 0px 500px;
+    padding: 260px 0px 0px;
 }
