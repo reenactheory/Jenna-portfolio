@@ -64,8 +64,12 @@ h3 {
 h4 {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 25px;
+}
+
+a:hover{
+    color: #7E79D9;
 }
 
 .logo {
@@ -86,10 +90,6 @@ h4 {
     padding-bottom: 300px;
 }
 
-.about-textbox {
-    padding: 10px 0px 10px;
-}
-
 .textbox-left {
     text-align: left;
 }
@@ -103,11 +103,28 @@ h4 {
     color: #7E79D9;
 }
 
+.jenna {
+    padding: 0px 5px 0px;
+    color: #7E79D9;
+}
+
+.phone-gmail {
+    padding-top: 50px;
+}
+
 #main-text {
     text-align: center;
     padding: 260px 0px 500px;
 }
 
 #about-frame {
+    padding: 260px 0px 500px;
+}
+
+#works-frame {
+    padding: 260px 0px 500px;
+}
+
+#contact-frame {
     padding: 260px 0px 500px;
 }
