@@ -42,10 +42,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: white;
-}
-
 h1 {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 2.5rem;
@@ -77,31 +73,41 @@ h4 {
     width: 65px;
 }
 
-.about-text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.main-text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .frame {
     float: inherit;
     place-items: center;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.about-text {
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+.about-textbox {
+    padding: 10px 0px 10px;
+}
+
+.textbox-left {
+    text-align: left;
+}
+
+.textbox-right {
+    text-align: left;
+}
+
+.designer {
+    padding: 0px 10px 0px;
+    color: #7E79D9;
+}
+
+#main-text {
+    text-align: center;
+    padding: 260px 0px 500px;
+}
+
+#about-frame {
+    padding: 260px 0px 500px;
 }
