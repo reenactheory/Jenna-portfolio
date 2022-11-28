@@ -82,13 +82,8 @@ a:hover{
 .frame {
     place-items: center;
     display: flex;
-    flex-direction: column;
-}
 
-.about-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .black-lightning {
@@ -97,17 +92,11 @@ a:hover{
     margin-top: 4px;
 }
 
-.black-lightning2 {
-    height: 18px;
-    width: 30px;
-    margin-top: 4px;
-}
-
-.about-textbox {
+.textbox {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .textbox-left {
@@ -136,11 +125,33 @@ a:hover{
 }
 
 .phone-gmail {
-    padding-top: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.phone-gmail-box {
+    margin-left: 30px;
+    margin-top: 6px;
 }
 
 .phone {
     flex-direction: row;
+}
+
+.gmail {
+    flex-direction: row;
+    float: left;
+    margin-top: 14px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail-text {
+    float: right;
 }
 
 .contact-line {
@@ -148,10 +159,19 @@ a:hover{
     height: 80px;
 }
 
-.icon {
+.phone-icon {
     height: 26px;
     width: 26px;
     float: left;
+    margin-right: 6px;
+}
+
+.gmail-icon {
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
 }
 
 #main-text {
