@@ -70,6 +70,14 @@ h4 {
     line-height: 25px;
 }
 
+.change-the-world {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
 a:hover{
     color: #7E79D9;
 }
@@ -82,7 +90,6 @@ a:hover{
 .frame {
     place-items: center;
     display: flex;
-
     flex-direction: column;
 }
 
@@ -124,14 +131,17 @@ a:hover{
     color: #7E79D9;
 }
 
+.portfolio-img {
+    width: 1000px;
+    margin-top: 100px;
+}
+
 .phone-gmail {
     display: flex;
-    margin-top: 10px;
 }
 
 .phone-gmail-box {
     margin-left: 30px;
-    margin-top: 6px;
 }
 
 .phone {
@@ -176,12 +186,13 @@ a:hover{
 
 #main-text {
     text-align: center;
+    display: flex;
     padding: calc(25% - 86px) 0px 25%;
     margin-bottom: 10%;
 }
 
 #about-frame {
-    padding: 260px 0px 500px;
+    padding: 300px 0px 500px;
 }
 
 #works-frame {
